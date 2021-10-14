@@ -12,8 +12,8 @@ public class SwipeUntilBottom implements Interaction {
 
     @Override
     public <T extends Actor> void performAs(T actor) {
-        for (int i = 0; i <4;i++) {
-            Swipe.with(Swipe.Direction.valueOf("DOWN"));
+        for (int i = 0; i <3;i++) {
+            actor.attemptsTo(Swipe.with(Swipe.Direction.valueOf("DOWN")));
         }
     }
 }

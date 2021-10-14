@@ -5,7 +5,7 @@ import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 import net.serenitybdd.screenplay.questions.Text;
 
-import static co.com.choucair.automation.android.userinterfaces.ShoppingPage.TEXT_TO_COMPROVE;
+import static co.com.choucair.automation.android.userinterfaces.LastPage.TEXT_TO_COMPROVE;
 
 public class CompareWith implements Question<Boolean> {
 

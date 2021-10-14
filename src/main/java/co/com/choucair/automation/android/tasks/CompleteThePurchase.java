@@ -8,7 +8,7 @@ import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
 
-import static co.com.choucair.automation.android.userinterfaces.ShoppingPage.FINISH_BUTTON;
+import static co.com.choucair.automation.android.userinterfaces.OverView.FINISH_BUTTON;
 
 public class CompleteThePurchase implements Task {
 

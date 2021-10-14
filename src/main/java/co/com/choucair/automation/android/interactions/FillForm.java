@@ -7,8 +7,7 @@ import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
 
-import static co.com.choucair.automation.android.userinterfaces.ShoppingPage.*;
-import static co.com.choucair.automation.android.userinterfaces.ShoppingPage.CONTINUE_BUTTON;
+import static co.com.choucair.automation.android.userinterfaces.FormPage.*;
 
 public class FillForm implements Interaction {
 

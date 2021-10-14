@@ -9,5 +9,4 @@ public class LoginPage {
     public static final Target USER_FIELD = Target.the("place to introduce username").locatedForAndroid(MobileBy.AccessibilityId("test-Username")).locatedForIOS(By.id(""));
     public static final Target PASSWORD_FIELD = Target.the("place to introduce password").locatedForAndroid(MobileBy.AccessibilityId("test-Password")).locatedForIOS(By.id(""));
     public static final Target BUTTON_LOGIN = Target.the("button to login").locatedForAndroid(MobileBy.AccessibilityId("test-LOGIN")).locatedForIOS(By.id(""));
-    public static final Target IMG_LOGO =Target.the("LOGO").locatedForAndroid(MobileBy.xpath("//android.widget.ScrollView[@content-desc=\"test-Login\"]/android.view.ViewGroup/android.widget.ImageView[1]")).locatedForIOS(By.id(""));
 }

@@ -28,7 +28,6 @@ public class Login implements Task {
         actor.attemptsTo(
                 Enter.theValue(user.getUser()).into(USER_FIELD),
                 Enter.theValue(user.getPassword()).into(PASSWORD_FIELD),
-                //Click.on(IMG_LOGO),
                 WaitUntil.the(BUTTON_LOGIN,isPresent()).forNoMoreThan(15).seconds(),
                 Click.on(BUTTON_LOGIN)
         );
